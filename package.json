@@ -1,8 +1,17 @@
 {
-  "name": "case_task_education",
+  "name": "fe-school-2.0-test-task",
   "version": "0.1.0",
+  "description": "Test task from https://mixolydian-polonium-8c0.notion.site/Front-End-School-2-0-c0a2ae89311645e2bdd48b770868ba09",
+  "keywords": ["React, TypeScript", "Wisey", "JavaScript", "Front End", "SPA"],
+  "author": "Yaroslav Pryhoda <yr.pryhoda@gmail.com> (https://github.com/YrPryhoda)",
+  "license": "ISC",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/lab": "^5.0.0-alpha.123",
+    "@mui/material": "^5.11.12",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -12,15 +21,16 @@
     "@types/react-dom": "^18.0.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-native-logs": "^5.0.1",
+    "react-router-dom": "^6.9.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.59.2",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +49,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.3.3",
+    "@types/video-react": "^0.15.1"
   }
 }

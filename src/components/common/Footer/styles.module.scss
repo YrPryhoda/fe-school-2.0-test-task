@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: blue;
+  padding: 2px;
+
+  &__title {
+    text-align: center;
+  }
+}

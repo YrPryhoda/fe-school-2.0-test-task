@@ -1,0 +1,11 @@
+.page {
+  min-height: 101.7vh;
+  display: grid !important;
+  grid-template-rows: auto 1fr auto !important;
+  overflow: hidden;
+
+  .content {
+    box-sizing: border-box;
+    padding: 32px;
+  }
+}

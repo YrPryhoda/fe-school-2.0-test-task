@@ -1,0 +1,24 @@
+.lesson {
+  margin-bottom: 12px;
+  position: relative;
+  cursor: pointer;
+
+  &__video {
+    min-height: 400px;
+  }
+
+  &_lock {
+    background-color: rgba(0, 0, 0, 0.87);
+    width: 80px !important;
+    height: 80px !important;
+    color: #fff;
+    position: absolute;
+    top: calc(50% - 40px);
+    left: calc(50% - 40px);
+  }
+
+  &__header {
+    font-size: 16px;
+    font-weight: 600 !important;
+  }
+}
