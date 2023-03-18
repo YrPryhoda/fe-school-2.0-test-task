@@ -1,7 +1,20 @@
+.container {
+  margin-top: 32px;
+}
+
 .link {
   cursor: pointer;
   font-weight: 800;
   margin-left: 5px;
   margin-right: 5px;
   text-decoration: underline;
+}
+
+.error {
+  margin: 20px 0;
+  background-color: #c40707;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid #6c0202;
+  color: #eee;
 }

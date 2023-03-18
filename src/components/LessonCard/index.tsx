@@ -49,6 +49,7 @@ export const LessonCard = React.forwardRef((
                     alt={lesson.title}
                 />
                 : <video
+                    preload="metadata"
                     ref={ref}
                     width="100%"
                     controls

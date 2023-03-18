@@ -40,7 +40,7 @@ export const CoursePreviewCard = ({item}: IProps) => {
         >
             <div className={styles.card__media}>
                 <video
-                    preload="false"
+                    preload="metadata"
                     ref={previewVideoRef}
                     className={`${styles.card__video} ${!isPreview ? styles.card_hidden : ''}`}
                     muted
